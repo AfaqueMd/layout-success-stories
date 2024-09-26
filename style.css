@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body>div>div:first-child{
+    background-color: #ffb7c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body>div>div:first-child p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.apply-now {
+    background-color: #ec0332;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 13px;
+    letter-spacing: 1px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: bold;
+}
+nav img{
+    width: 150px;
+}
+nav ul li{
+    padding: 0px 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+.nav-right a:first-child{
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color: rgb(208, 241, 253);
+    color: rgb(71, 71, 255);
+    margin-right: 10px;
+}
+#success-stories{
+    color: #ec0332;
+}
+.nav-right a:last-child{
+    color: #ec0332;
+    border: 1px solid #ec0332;
+    padding: 13px;
+    border-radius:8px;
+    font-weight: bold;
+}
+
+
+#success-stats{
+    background-color: #346fe3;
+    color: white;
+}
+.success-video{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+.success-video>div{
+    width: 100%;
+    padding: 0 80px;
+}
+.success-video>div h1{
+    font-size: 56px;
+    color: #6c6fcf;
+    margin: 0;
+}
+.success-video>div>p{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 28px;
+    font-weight: 900;
+}
+.success-video>div a{
+    padding: 15px 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.success-video>div+div{
+    width: 100%;
+}
+.success-video>div+div>video{
+    width: 100%;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 15px;
+}
+
+#success-stats{
+    text-align: center;
+}
+#success-stats>h2{
+    font-size: 36px;
+    margin-bottom: 0;
+    font-weight: 700;
+    padding-top: 30px;
+}
+#success-stats>p{
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
